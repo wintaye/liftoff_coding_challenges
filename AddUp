@@ -1,0 +1,12 @@
+public class Program {
+    public static int addUp(int num) {
+      int solution = 0;
+      
+      for(int i = 1; i <= num; i++){
+        solution += i;
+      }
+      
+      return solution;
+      
+    }
+}
